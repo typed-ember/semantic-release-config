@@ -913,6 +913,11 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@typed-ember/renovate-config@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@typed-ember/renovate-config/-/renovate-config-1.0.1.tgz#9154cc5d854711800824fd2de1407b1fbb5853dd"
+  integrity sha512-HwXiLWRw/AtIh9Vpkt/k4HPTHbwvgtXOC4EQ09y2JjeL+dHx+hJk+XlRBcZtLv3zelATrPdUIrqW7tcTq1Og+g==
+
 JSONStream@^1.0.4, JSONStream@^1.3.4:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-1.3.5.tgz#3208c1f08d3a4d99261ab64f92302bc15e111ca0"

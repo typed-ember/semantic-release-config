@@ -1,7 +1,7 @@
 # @typed-ember/semantic-release-config
 
 [![Build Status](https://travis-ci.org/typed-ember/semantic-release-config.svg?branch=master)](https://travis-ci.org/typed-ember/semantic-release-config)
-[![npm version](https://badge.fury.io/js/typed-ember/semantic-release-config.svg)](https://www.npmjs.com/package/@typed-ember/semantic-release-config)
+[![npm version](https://badge.fury.io/js/%40typed-ember%2Fsemantic-release-config.svg)](https://www.npmjs.com/package/@typed-ember/semantic-release-config)
 
 Semantic release configuration for typed-ember projects
 
