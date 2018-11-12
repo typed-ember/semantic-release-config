@@ -1,0 +1,44 @@
+{
+  "name": "@typed-ember/semantic-release-config",
+  "description": "Semantic release config for typed-ember libraries",
+  "version": "0.0.0-development",
+  "main": "index.js",
+  "repository": "https://github.com/typed-ember/semantic-release-config",
+  "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@commitlint/cli": "7.2.1",
+    "@commitlint/config-conventional": "7.1.2",
+    "@commitlint/travis-cli": "7.2.1",
+    "@semantic-release/changelog": "^3.0.0",
+    "@semantic-release/error": "^2.2.0",
+    "@semantic-release/exec": "^3.0.2",
+    "@semantic-release/git": "^7.0.5",
+    "@semantic-release/github": "^5.0.2",
+    "semantic-release": "^15.9.9",
+    "travis-deploy-once": "^5.0.9"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once",
+    "test": "echo 'no tests'"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "./node_modules/.bin/commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "husky": "^1.1.3"
+  }
+}
