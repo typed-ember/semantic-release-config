@@ -39,7 +39,7 @@
     }
   },
   "devDependencies": {
-    "@typed-ember/renovate-config": "1.1.0",
+    "@typed-ember/renovate-config": "1.2.0",
     "husky": "1.1.3"
   }
 }
